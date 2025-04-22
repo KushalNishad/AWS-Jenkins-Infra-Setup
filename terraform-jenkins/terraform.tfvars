@@ -9,4 +9,4 @@ us_availability_zone = ["us-east-1a", "us-east-1b"]
 ec2_ami_id = "ami-084568db4383264d4"
 
 # Generate keypair with command <ssh-keygen -t rsa>
-# Below public key gets appeneded in .ssh/auth_keys file inside the instance.
+# Public key gets appeneded in .ssh/auth_keys file inside the instance.
