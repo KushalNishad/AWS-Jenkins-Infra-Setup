@@ -63,3 +63,11 @@ To destroy all resources:
 ```bash
 terraform destroy
 ```
+---
+
+### 🙋‍♂️ Author
+
+**Kushal Nishad**  
+🔗 [GitHub](https://github.com/KushalNishad) | [LinkedIn](https://www.linkedin.com/in/kushal-nishad/)
+
+---
