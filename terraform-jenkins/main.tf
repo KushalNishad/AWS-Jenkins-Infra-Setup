@@ -14,6 +14,7 @@ module "security-groups" {
   ec2_jenkins_sg_name = "Allow port 8080 for jenkins"
 }
 
+
 module "jenkins" {
   source                    = "./modules/jenkins"
   ami_id                    = var.ec2_ami_id
