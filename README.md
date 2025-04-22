@@ -11,12 +11,12 @@ deploying a Jenkins server on EC2 instance us-east-1. It supports both automated
 - 📦 Modular and reusable Terraform code
 ```
 
-### Architecture Diagram
+## Architecture Diagram
 📝 Note: The diagram below demonstrates a high availability setup by deploying EC2 instances across multiple subnets (e.g., us-east-1a and us-east-1b). However, for this project, the Terraform code provisions a single Jenkins instance in us-east-1a. The diagram is intended solely to help visualize the concept of high availability.
 
 ![Architecture Diagram](AWS-Jenkins-Infra-Setup.drawio.png)
 
-### Project Structure
+## Project Structure
 ```
 ├── terraform-infra-setup/
 │   ├── modules/
@@ -37,7 +37,7 @@ deploying a Jenkins server on EC2 instance us-east-1. It supports both automated
 
 ```
 
-### Setup Instructions
+## Setup Instructions
 
 #### 1. Clone the Repository
 ```
@@ -57,16 +57,14 @@ terraform plan
 terraform apply
 ```
 
-### 🧹 Tear Down
+## 🧹 Tear Down
 
 To destroy all resources:
 ```bash
 terraform destroy
 ```
----
 
-### 🙋‍♂️ Author
-
+## 🙋‍♂️ Author
 **Kushal Nishad**  
 🔗 [GitHub](https://github.com/KushalNishad) | [LinkedIn](https://www.linkedin.com/in/kushal-nishad/)
 
