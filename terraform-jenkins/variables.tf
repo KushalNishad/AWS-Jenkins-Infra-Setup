@@ -36,5 +36,6 @@ variable "ec2_ami_id" {
 
 variable "public_key" {
   type        = string
-  description = "DevOps Project 1 Public key for EC2 instance"
+  description = "Jenkins Infra Public key for EC2 instance"
+  sensitive   = true
 }
