@@ -1,7 +1,7 @@
 ### AWS Jenkins Infra Setup
 ```markdown
 This repository contains Terraform configurations to provision and manage AWS infrastructure for
-deploying a Jenkins server on EC2 instance. It supports both automated provisioning and deployment using Terraform.
+deploying a Jenkins server on EC2 instance us-east-1. It supports both automated provisioning and deployment using Terraform.
 
 🚀 Features
 
@@ -37,7 +37,7 @@ deploying a Jenkins server on EC2 instance. It supports both automated provision
 #### 1. Clone the Repository
 ```
 bash
-git clone https://github.com/KushalNishad/AWS-Flask-App-Infra-Setup.git
+git clone https://github.com/KushalNishad/AWS-Jenkins-Infra-Setup.git
 cd AWS-Flask-App-Infra-Setup
 ```
 
