@@ -2,8 +2,8 @@
 **/.terraform/*
 
 # Ignore sensitive key pairs
-terraform-infra-setup/keypair/
-keypair/*
+keypair/aws_ec2_terraform
+keypair/aws_ec2_terraform.pub
 
 # .tfstate files
 *.tfstate
