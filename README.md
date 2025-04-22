@@ -12,6 +12,7 @@ deploying a Jenkins server on EC2 instance us-east-1. It supports both automated
 ```
 
 ### Architecture Diagram
+![Architecture Diagram](AWS-Jenkins-Infra-Setup.drawio.png)
 
 ### Project Structure
 ```
