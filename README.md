@@ -11,6 +11,8 @@ deploying a Jenkins server on EC2 instance us-east-1. It supports both automated
 - 📦 Modular and reusable Terraform code
 ```
 
+### Architecture Diagram
+
 ### Project Structure
 ```
 ├── terraform-infra-setup/
